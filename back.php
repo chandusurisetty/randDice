@@ -12,8 +12,8 @@
 <?php
 echo "<h1>I will help you to get random number</h1>";
 
-$num = (int) $_POST["dicenum"];
-$faces = (int) $_POST["faces"];
+$num = (int) $_GET["dicenum"];
+$faces = (int) $_GET["faces"];
 $count = 0;
 echo "<h2>Total number of dices roller <span>$num</span></h2><br>";
 echo "<h2>T otal number of faces on dice <span>$faces</span></h2>";
