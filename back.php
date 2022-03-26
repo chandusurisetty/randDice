@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="style1.css">
 </head>
 <body>
+    <?php
+        $title="Index"
+   
+    ?>
+    
 <div class="container">
 <?php
 echo "<h1>I will help you to get random number</h1>";
